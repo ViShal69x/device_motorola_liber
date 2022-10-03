@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
